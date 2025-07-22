@@ -1,22 +1,28 @@
-## RGMP: Recurrent Geometric-prior Multimodal Policy for Generalizable Humanoid Robot Manipulation
+## 🌟 RGMP: Recurrent Geometric-prior Multimodal Policy for Generalizable Humanoid Robot Manipulation 🤖✨
 
-### Huamn-robot interaction videos
-#### The video with sounds please refer to the  supplementary materials submitted alongside the paper.
+### 🤝 Human-Robot Interaction Videos 🎥
+#### 👀 For the full video with sound, please refer to the supplementary materials submitted alongside the paper.
 
 ![Human-robot](figs/Human-robot_interaction.gif)
 
 ![Generalization](figs/Generalization_grasping.gif)
 
-### RGMP Generalization Performance in Maniskill2 Simulator
+### 🔥 RGMP Generalization Performance in Maniskill2 Simulator 🚀
 
+#### Plugging in a charger 🔌
 ![PlugCharger](figs/PlugCharger.gif)
+#### Moving a bucket 🪣
 ![MoveBucket](figs/MoveBucket.gif) 
+#### Pushing a chair 🪑
 ![PushChair](figs/PushChair.gif)
+#### Opening a cabinet door 🚪
 ![OpenCabinetDoor](figs/OpenCabinetDoor.gif) 
+#### Opening a cabinet drawer 🗄️
 ![OpenCabinetDrawer](figs/OpenCabinetDrawer.gif) 
 
 
-## Install
+
+## 🛠️ Install Instructions 🚀
 Create a conda virtual environment and activate it:
 ```
 conda create -n GSNet python=3.7 -y
