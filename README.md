@@ -12,5 +12,3 @@ conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=10.2 -c pytorch
 pip install timm==0.4.12
 pip install opencv-python==4.4.0.46 termcolor==1.1.0 yacs==0.1.8 pyyaml scipy
 ```
-## Dataset
-https://drive.google.com/file/d/1QXi2YtD1KDBRAdNTvSYFCiKMo1P8Kd2t/view?usp=sharing
