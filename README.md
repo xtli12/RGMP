@@ -9,8 +9,8 @@
 
 ### 🔥 RGMP Generalization Performance in Maniskill2 Simulator 🚀
 
-#### Plugging in a charger 🔌![PlugCharger](figs/PlugCharger.gif)
-#### Moving a bucket 🪣![MoveBucket](figs/MoveBucket.gif) 
+![PlugCharger](figs/PlugCharger.gif)
+![MoveBucket](figs/MoveBucket.gif) 
 ![PushChair](figs/PushChair.gif)
 ![OpenCabinetDoor](figs/OpenCabinetDoor.gif) 
 ![OpenCabinetDrawer](figs/OpenCabinetDrawer.gif) 
