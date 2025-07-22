@@ -1,5 +1,21 @@
-# GuseNet
-Guided Self-attention: Find the Generalized Necessarily Distinct Vectors for Grain Size Grading 
+## RGMP: Recurrent Geometric-prior Multimodal Policy for Generalizable Humanoid Robot Manipulation
+
+### Huamn-robot interaction videos
+#### The video with sounds please refer to the  supplementary materials submitted alongside the paper.
+
+![Human-robot](figs/Human-robot_interaction.gif)
+
+![Generalization](figs/Generalization_grasping.gif)
+
+### RGMP Generalization Performance in Maniskill2 Simulator
+
+![PlugCharger](figs/PlugCharger.gif)
+![MoveBucket](figs/MoveBucket.gif) 
+![PushChair](figs/PushChair.gif)
+![OpenCabinetDoor](figs/OpenCabinetDoor.gif) 
+![OpenCabinetDrawer](figs/OpenCabinetDrawer.gif) 
+
+
 ## Install
 Create a conda virtual environment and activate it:
 ```
