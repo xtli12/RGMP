@@ -15,17 +15,6 @@
 ![OpenCabinetDoor](figs/OpenCabinetDoor.gif) 
 ![OpenCabinetDrawer](figs/OpenCabinetDrawer.gif) 
 
-#### Plugging in a charger 🔌
-![PlugCharger](figs/PlugCharger.gif)
-#### Moving a bucket 🪣
-![MoveBucket](figs/MoveBucket.gif) 
-#### Pushing a chair 🪑
-![PushChair](figs/PushChair.gif)
-#### Opening a cabinet door 🚪
-![OpenCabinetDoor](figs/OpenCabinetDoor.gif) 
-#### Opening a cabinet drawer 🗄️
-![OpenCabinetDrawer](figs/OpenCabinetDrawer.gif) 
-
 
 ## 🛠️ Install Instructions 🚀
 Create a conda virtual environment and activate it:
