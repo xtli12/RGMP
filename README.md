@@ -2,9 +2,9 @@
 
 ### 🤝 Human-Robot Interaction Videos 🎥
 #### 👀 For the full video with sound, please refer to the supplementary materials submitted alongside the paper.
-
+#### Huamn-robot interaction
 ![Human-robot](figs/Human-robot_interaction.gif)
-
+#### Generalization ability
 ![Generalization_grasping](figs/Generalization_grasping.gif)
 
 ### 🔥 RGMP Generalization Performance in Maniskill2 Simulator 🚀
