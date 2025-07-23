@@ -5,7 +5,7 @@
 
 ![Human-robot](figs/Human-robot_interaction.gif)
 
-![Generalization](figs/Generalization_grasping.gif)
+![Generalization_grasping](figs/Generalization_grasping.gif)
 
 ### 🔥 RGMP Generalization Performance in Maniskill2 Simulator 🚀
 
