@@ -36,11 +36,12 @@ pip install opencv-python==4.4.0.46 termcolor==1.1.0 yacs==0.1.8 pyyaml scipy
 ```
 
 ### 🧠 Skill Library
+```py
 The framework supports three core manipulation skills with geometric prior integration:
 side_grasp(): Optimized for cylindrical objects (cans, bottles) - performs stable lateral grasping
 lift_up(): Specialized for crushed/flat objects - executes overhead lifting in cluttered environments with obstacle avoidance
 top_pinch(): Designed for small/thin objects (napkins, cables) - enables precise pinch grasping with fine motor control
-
+```
 ### 📂 File Structure
 ```py
 Humanoid/
