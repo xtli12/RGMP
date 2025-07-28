@@ -43,30 +43,15 @@ for j in range(3):
     w_detached = w.detach().numpy()
     det_B = np.linalg.det(w_detached)
     if det_B == 0:
-        print("原图行列式的值是", det_B)
-        print("线性相关的是",w*255)
+        print( det_B)
+        print(w*255)
 
 # x = torch.tensor(x)
 x = x.unsqueeze(0)
 before,after = model(x)
 before = before.squeeze(0)
 after = after.squeeze(0)
-# v = torch.tensor(v)
-# x = x.mean(dim=[1])
-# v = x
-# v = torch.cat([v, v, v], 0)
 
-# v = torch.cat([v, v], 0)
-# v = rearrange(v, '(c p l) h w -> c (p h) (l w)', p=32, l=32)
-#
-# v = v.transpose(2, 0)
-# v = v.transpose(1, 0)
-# v = v.data.numpy()
-# v = v * 255
-# cv2.imwrite('./test_picture/visualize_one/3.jpg', v)
-
-# for i in range(384):
-"计算线性无关性"
 for i in range(736):
 # for i in range(1024):
 # for i in range(1526):
@@ -85,7 +70,6 @@ for i in range(736):
         v = v.data.numpy()
         v = v*255
 
-        """新版本"""
 
         a = np.zeros((56, 56, 3))
         b = np.zeros((56, 56, 3)) + 255
@@ -101,61 +85,6 @@ for i in range(736):
         cv2.imwrite(result_path + str(i) + '.jpg', a)
 
 
-"保存特征图"
-# for i in range(352):
-#     v = before[i:i+1, :,: ]
-#
-#     v = torch.cat([v, v, v], 0)
-#     v = v.transpose(2, 0)
-#     v = v.transpose(1, 0)
-#     v = v.data.numpy()
-#     v = v*255
-#
-#     # b = v.astype(np.uint8)
-#     # rgb1 = cv2.applyColorMap(b, cv2.COLORMAP_JET)
-#     """新版本"""
-#     # a = np.zeros((7, 7, 3))
-#     # b = np.zeros((7, 7, 3)) + 255
-#     a = np.zeros((56, 56, 3))
-#     b = np.zeros((56, 56, 3)) + 255
-#     a[:,:,0] = b[:, :,0];a[:,:,1] = b[:, :,0];
-#     a[:,:,2] = v[:, :,2]
-#
-#     a = np.uint8(a)
-#     a = cv2.applyColorMap(a, cv2.COLORMAP_JET)
-#     # v = np.asarray(v)
-#     result_path = './test_picture/before_denseblock/channel_'
-#     if not os.path.exists(result_path):
-#         os.makedirs(result_path)
-#     cv2.imwrite(result_path + str(i) + '.jpg', a)
-
-# for k in range(736):
-#     v = after[k:k + 1, :, :]
-#
-#     v = torch.cat([v, v, v], 0)
-#     v = v.transpose(2, 0)
-#     v = v.transpose(1, 0)
-#     v = v.data.numpy()
-#     v = v * 255
-#
-#     # b = v.astype(np.uint8)
-#     # rgb1 = cv2.applyColorMap(b, cv2.COLORMAP_JET)
-#     """新版本"""
-#     # a = np.zeros((7, 7, 3))
-#     # b = np.zeros((7, 7, 3)) + 255
-#     a = np.zeros((56, 56, 3))
-#     b = np.zeros((56, 56, 3)) + 255
-#     a[:, :, 0] = b[:, :, 0];
-#     a[:, :, 1] = b[:, :, 0];
-#     a[:, :, 2] = v[:, :, 2]
-#
-#     a = np.uint8(a)
-#     a = cv2.applyColorMap(a, cv2.COLORMAP_JET)
-#     # v = np.asarray(v)
-#     result_path = './test_picture/Hang/channel_'
-#     if not os.path.exists(result_path):
-#         os.makedirs(result_path)
-#     cv2.imwrite(result_path + str(k) + '.jpg', a)
 
 
 
