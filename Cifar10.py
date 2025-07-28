@@ -10,7 +10,7 @@ import torchvision
 from torchvision import transforms
 import shutil
 
-from GuesNet import *
+from GSA import *
 
 from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
