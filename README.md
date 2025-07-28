@@ -116,13 +116,13 @@ pip install torchsparse@git+https://github.com/lz1oceani/torchsparse.git
 
 #### 🚀 Deployment Workflow
 ```py
-1. Convert Demonstrations (Controller Setup)
+#1. Convert Demonstrations (Controller Setup)
 python -m mani_skill2.trajectory.replay_trajectory \
 --traj-path demos/rigid_body/PegInsertionSide-v0/trajectory.h5 \
 --save-traj --target-control-mode pd_ee_delta_pose \
 --obs-mode none --num-procs 32
 
-2. Configure Observation Mode
+#2. Configure Observation Mode
 # Replace {ENV_NAME}, {PATH}, and {YOUR_DIR} with actual values
 python tools/convert_state.py --env-name {ENV_NAME} --num-procs 1 \
 --traj-name {PATH}/trajectory.none.pd_joint_delta_pos.h5 \
@@ -131,7 +131,7 @@ python tools/convert_state.py --env-name {ENV_NAME} --num-procs 1 \
 --control-mode pd_joint_delta_pos --max-num-traj -1 --obs-mode pointcloud \
 --n-points 1200 --obs-frame base --reward-mode dense --render
 
-3. Run Environment-Specific Evaluation (Example: MoveBucket)
+#3. Run Environment-Specific Evaluation (Example: MoveBucket)
 python maniskill2_learn/apis/run_rl.py configs/brl/bc/pointnet_soft_body.py --work-dir {YOUR_DIR} --gpu-ids 0 --cfg-options \
 "env_cfg.env_name=Movebucket" "env_cfg.obs_mode=pointcloud" "env_cfg.n_points=1200" "eval_cfg.num=100" "eval_cfg.save_traj=False" \
 "eval_cfg.save_video=True" "eval_cfg.num_procs=10" "env_cfg.control_mode=pd_ee_delta_pose" \
