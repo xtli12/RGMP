@@ -42,6 +42,7 @@ lift_up(): Specialized for crushed/flat objects - executes overhead lifting in c
 top_pinch(): Designed for small/thin objects (napkins, cables) - enables precise pinch grasping with fine motor control
 
 ### 📂 File Structure
+```py
 Humanoid/
 ├── gss_framework.py          # Core RGMP framework implementation
 ├── yolo_segmentation.py      # YOLOv8-based object segmentation module
@@ -55,7 +56,7 @@ Humanoid/
 ├── GSA.py                    # Geometric-prior Swin Transformer model
 ├── skill_train.py            # Skill-specific model training script
 └── requirements.txt          # Project dependencies
-
+```
 
 ### ⚙️ Configuration
 
