@@ -11,7 +11,7 @@ import shutil
 import torchvision
 from torchvision import transforms
 from utils_swin1 import AverageMeter, initialize_logger, save_checkpoint, record_loss1
-# from swin_Den4KVStage3q_sota_oldA100 import SwinTransformer
+
 from GSA import *
 import cv2
 import numpy as np
@@ -104,7 +104,7 @@ def main():
     parser.add_argument("--init_lr", type=float, default=0.001, help="initial learning rate")
     parser.add_argument("--decay_power", type=float, default=0.9, help="decay power")
     parser.add_argument("--max_iter", type=float, default=400000, help="max_iter")
-    parser.add_argument("--outf", type=str, default="./Results/GPT_GSNet/", help='path log files')
+    parser.add_argument("--outf", type=str, default="./Results/GSA/", help='path log files')
     parser.add_argument("--train_folder", type=str, default="./dataset/train/", help="train data folder")
     parser.add_argument("--valid_folder", type=str, default="./dataset/valid/", help="valid data folder")
     opt = parser.parse_args()

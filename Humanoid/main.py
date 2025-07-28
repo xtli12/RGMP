@@ -2,7 +2,7 @@ import time
 
 from handler_chat import ChatHandler
 from skill_library import side_grasp, lift_up, top_pinch, home_position
-from gss_framework import process_gss_instruction
+from rgmp_framework import initialize_rgmp_framework, process_rgmp_instruction
 
 wake_vocs = ['hello']
 end_vocs = ['goodbye', 'bye']
@@ -30,15 +30,39 @@ def detect_wake(speech_handler):
             time.sleep(0.5)
 
 def perform_action(text, image_path='test.jpg'):
-    if 'side_grasp' in text:
-        side_grasp(image_path)
-        home_position()
-    elif 'lift_up' in text:
-        lift_up(image_path)
-        home_position()
-    elif 'top_pinch' in text:
-        top_pinch(image_path)
-        home_position()
+    # Use RGMP framework for action prediction
+    try:
+        import cv2
+        observation = cv2.imread(image_path)
+        if observation is not None:
+            final_action, pipeline_info = process_rgmp_instruction(text, observation)
+            print(f"RGMP predicted action: {final_action}")
+            print(f"Selected skill: {pipeline_info['selected_skill']}")
+            
+            # Execute corresponding skill based on RGMP output
+            skill = pipeline_info['selected_skill']
+            if skill == 'side_grasp':
+                side_grasp(image_path)
+            elif skill == 'lift_up':
+                lift_up(image_path)
+            elif skill == 'top_pinch':
+                top_pinch(image_path)
+            
+            home_position()
+        else:
+            print(f"Could not load image: {image_path}")
+    except Exception as e:
+        print(f"RGMP processing failed: {e}")
+        # Fallback to original logic
+        if 'side_grasp' in text:
+            side_grasp(image_path)
+            home_position()
+        elif 'lift_up' in text:
+            lift_up(image_path)
+            home_position()
+        elif 'top_pinch' in text:
+            top_pinch(image_path)
+            home_position()
         
 
 def main():
