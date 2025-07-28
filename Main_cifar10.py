@@ -73,7 +73,10 @@ def main():
 '''
   re-implement of ConvNext, CoAtNet, EVA-02, and MaxViT
 '''
-    # model = timm.create_model('convnext_xxlarge.clip_laion2b_soup_ft_in1k', pretrained=False, num_classes=14)
+    model = timm.create_model('convnext_xxlarge.clip_laion2b_soup_ft_in1k', pretrained=False, num_classes=10)
+    # model = timm.create_model('coatnet_nano_rw_224.sw_in1k', pretrained=False, num_classes=10)
+    # model = timm.create_model('eva_giant_patch14_224.clip_ft_in1k', pretrained=False, num_classes=10)
+    # model = timm.create_model('maxvit_base_tf_224.in1k', pretrained=False, num_classes=10)
     criterion_train = nn.CrossEntropyLoss()
     torch.backends.cudnn.benchmark = True
 
