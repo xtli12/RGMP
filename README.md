@@ -78,13 +78,18 @@ python skill_train.py --train_folder ./dataset/train/ --valid_folder ./dataset/v
 
 ### 💻 Hardware Requirements
 GPU: NVIDIA GPU (RTX 4090 recommended for optimal performance)
+
 VRAM: Minimum 8GB (16GB+ preferred for real-time inference)
+
 Sensors: USB camera (1080p+) for visual input; Audio I/O devices for speech interaction
+
 Robot Platform: Compatible with humanoid manipulators supporting ROS control interface
 
 ### 🔌 API Integration
 The framework integrates with state-of-the-art AI services:
+
 Qwen-vl API: For multimodal visual-language understanding and decision making
+
 YOLOv8: For real-time object detection and instance segmentation
 
 ### 🧪 Maniskill2 Simulator Setup
