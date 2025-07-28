@@ -20,10 +20,11 @@
 
 ### 🛠️ Installation Instructions 🚀
 ### 🔧 Step-by-step Setup
+```py
 Create and activate a Conda environment
 conda create -n GSNet python=3.7 -y
 conda activate GSNet
-
+```
 Install dependencies
 #### Install PyTorch
 ```py
