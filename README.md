@@ -57,7 +57,6 @@ Humanoid/
 ├── handler_speech.py         # Speech recognition and synthesis handler
 ├── prompts.py                # Prompt templates for multimodal policy guidance
 ├── main.py                   # Main application entry point
-├── GSA.py                    # Geometric-prior Swin Transformer model
 ├── skill_train.py            # Skill-specific model training script
 └── requirements.txt          # Project dependencies
 ```
