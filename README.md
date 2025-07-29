@@ -2,20 +2,21 @@
 #### An end-to-end framework that unifies geometric-semantic skill reasoning with data-efficient visuomotor control
 ### 🤝 Human-Robot Interaction Videos 🎥
 #### 👀 For the full video with sound, please refer to the supplementary materials submitted alongside the paper.
-#### Huamn-robot interaction
-![Human-robot](figs/Human-robot_interaction.gif)
-#### Generalization ability
-![Generalization_grasping](figs/Generalization_grasping.gif)
+
+|     **Huamn-robot interaction**     | 
+| :---------------------------------: | 
+| <img src="figs/Human-robot_interaction.gif" width="680" height="680"/> |
+
+|     **Generalization ability**      | 
+| :---------------------------------: | 
+| <img src="figs/Generalization_grasping.gif" width="680" height="680"/> |
 
 ### 🔥 RGMP Generalization Performance in Maniskill2 Simulator 🚀
 
-![PlugCharger](figs/PlugCharger.gif)
-![MoveBucket](figs/MoveBucket.gif) 
-![PushChair](figs/PushChair.gif)
-![OpenCabinetDoor](figs/OpenCabinetDoor.gif) 
-![OpenCabinetDrawer](figs/OpenCabinetDrawer.gif) 
+|               PlugCharger                 |                MoveBucket              |               PushChair             |              OpenCabinetDoor               |               OpenCabinetDrawer              | 
+| :---------------------------------: | :------------------------------: | :--------------------------------: | :------------------------------: | :------------------------------: |
+| <img src="figs/PlugCharger.gif" width="170" height="170"/> | <img src="figs/MoveBucket.gif" width="170" height="170"/> | <img src="figs/PushChair.gif" width="170" height="170"/> | <img src="figs/OpenCabinetDoor.gif" width="170" height="170"/>| <img src="figs/OpenCabinetDrawer.gif" width="170" height="170"/>| 
 
- 
 
 
 ### 🛠️ Installation Instructions 🚀
