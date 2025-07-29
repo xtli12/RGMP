@@ -5,11 +5,11 @@
 
 |     **Huamn-robot interaction**     | 
 | :---------------------------------: | 
-| <img src="figs/Human-robot_interaction.gif" width="680" height="680"/> |
+| <img src="figs/Human-robot_interaction.gif" width="680" height="510"/> |
 
 |     **Generalization ability**      | 
 | :---------------------------------: | 
-| <img src="figs/Generalization_grasping.gif" width="680" height="680"/> |
+| <img src="figs/Generalization_grasping.gif" width="680" height="475"/> |
 
 ### 🔥 RGMP Generalization Performance in Maniskill2 Simulator 🚀
 
