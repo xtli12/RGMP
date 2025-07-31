@@ -1,0 +1,15 @@
+torch>=1.9.0
+torchvision>=0.10.0
+ultralytics>=8.0.0
+opencv-python>=4.5.0
+numpy>=1.21.0
+einops>=0.4.0
+dashscope>=1.0.0
+pygame>=2.1.0
+pyaudio>=0.2.11
+requests>=2.25.0
+PyYAML>=5.4.0
+tensorflow>=2.8.0
+sounddevice>=0.4.0
+soundfile>=0.10.0
+webrtcvad>=2.0.10

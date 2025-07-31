@@ -1,0 +1,4 @@
+
+qwen:
+  model_name: "qwen-vl-max-latest"
+  api_key: "please type your personal api_key"
