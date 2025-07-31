@@ -32,9 +32,3 @@ Skill Library:
 
 The robot selects skills based on object shape, position, and collision avoidance.
 '''
-
-# GSS Framework Components
-GSS_INFERENCE_LATENCY = 105  # ms on NVIDIA 4090
-QWEN_RESPONSE_TIME = 45  # ms average
-YOLOV8_MIOU = 97.6  # % accuracy
-OBJECT_DETECTION_ACCURACY = 93.1  # % on COCO-Objects
