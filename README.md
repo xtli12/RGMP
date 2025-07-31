@@ -96,7 +96,7 @@ YOLOv8: For real-time object detection and instance segmentation
 #### Install base simulator
 ```py
 pip install mani-skill2
-cd ManiSkill2-Learn
+cd maniSkill2-Learn
 ```
 #### Install PyTorch compatible with simulator
 ```py
