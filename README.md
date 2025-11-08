@@ -5,6 +5,7 @@
 
 |     **Huamn-robot interaction**     | 
 | :---------------------------------: | 
+https://github.com/user-attachments/assets/4b16bb10-bda4-41cc-91ad-91a46b3b9719
 | <img src="https://github.com/user-attachments/assets/4b16bb10-bda4-41cc-91ad-91a46b3b9719" width="680" height="510"/> |
 
 |     **Generalization ability**      | 
