@@ -1,11 +1,11 @@
 ## 🌟RGMP: Recurrent Geometric-prior Multimodal Policy for Generalizable Humanoid Robot Manipulation 🤖✨
 #### An end-to-end framework that unifies geometric-semantic skill reasoning with data-efficient visuomotor control
 ### 🤝 Human-Robot Interaction Videos 🎥
-#### 👀 For the full video with sound, please refer to the supplementary materials submitted alongside the paper.
+#### 👀 For the full video with sound, please refer to this [link](https://github.com/user-attachments/assets/5c396c4f-d024-41cc-aa6f-935461931ff5).
 
 |     **Huamn-robot interaction**     | 
 | :---------------------------------: | 
-| <[img](https://github.com/user-attachments/assets/4b16bb10-bda4-41cc-91ad-91a46b3b9719) width="680" height="510"/> |
+| <img src="figs/Human-robot_interaction.gif" width="680" height="510"/> |
 
 |     **Generalization ability**      | 
 | :---------------------------------: | 
