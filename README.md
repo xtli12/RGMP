@@ -2,13 +2,6 @@
 #### An end-to-end framework that unifies geometric-semantic skill reasoning with data-efficient visuomotor control
 ### 🤝 Human-Robot Interaction Videos 🎥
 #### 👀 For the full video with sound, please refer to this [link](https://github.com/user-attachments/assets/5c396c4f-d024-41cc-aa6f-935461931ff5). 
-<iframe src="https://docs.google.com/viewer?url=https://github.com/Kang-Jay/KangJay/raw/main/Resume.pdf&embedded=true" style="width:100vw; height:100vh;" frameborder="0"></iframe>
-<style>
-    body{
-        margin: 0;
-    }
-</style>
-
 
 |     **Huamn-robot interaction**     | 
 | :---------------------------------: | 
