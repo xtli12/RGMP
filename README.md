@@ -147,6 +147,19 @@ python maniskill2_learn/apis/run_rl.py configs/brl/bc/pointnet_soft_body.py --wo
 "train_cfg.n_checkpoint=10000" "replay_cfg.capacity=10000" "replay_cfg.num_samples=-1" "replay_cfg.cache_size=1000" "train_cfg.n_updates=500"
 ```
 
+
+## 📖 Citation
+
+If you find this work useful in your research, please consider citing:
+
+```bibtex
+@inproceedings{RGMP_AAAI26,
+    title={RGMP: Recurrent Geometric-prior Multimodal Policy for Generalizable Humanoid Robot Manipulation},
+    author={Li, Xuetao and Huang, Wenke and Pan, Nengyuan and Zhao, Kaiyan and Yang, Songhua and Wang, Yiming and Li, Mengde and Ye, Mang and Xuan, Jifeng and Li, Miao},
+    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+    year={2026}
+}
+
 📜 License
 This project is intended for research purposes only. Please cite our paper if you use this framework in academic work.
 
