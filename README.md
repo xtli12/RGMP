@@ -159,7 +159,7 @@ If you find this work useful in your research, please consider citing:
     booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
     year={2026}
 }
-
+```
 
 📜 License
 This project is intended for research purposes only. Please cite our paper if you use this framework in academic work.
