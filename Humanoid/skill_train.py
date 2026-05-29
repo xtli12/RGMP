@@ -133,7 +133,7 @@ def main():
     opt.max_iter = opt.end_epoch * len(data_loader)
     print("\nbuilding model ...")
 
-    model = SwinTransformer(hidden_dim=96, layers=(2, 2, 6, 2), heads=(3, 6, 12, 24), window_size=15, num_classes=6)
+    model = ARGN_ImageModel(hidden_dim=96, layers=(2, 2, 6, 2), heads=(3, 6, 12, 24), window_size=15, num_classes=6)
     model.cuda()
 
     # Use MSELoss for regression task
